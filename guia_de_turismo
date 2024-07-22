@@ -1,0 +1,41 @@
+#Esse código se trata de um programa para calcular o gasto em uma viagem com as atrações oferecidas pelo guia de turismo.
+import numpy as np
+custo = 0
+print("---"*60)
+print('Seja bem vindo ao nosso passeio, durante ele voce pode desfrutar das maravilhosas praias de piscinas naturas e além disso conhecer o projeto TAMAR')
+print('adulto custa R$ 100,00 e crianças acima de 7 anos custa R$ 50,00')
+print("---"*60)
+qnta = int(
+    input('informe a quantidade de turistas adultos que iram fazer a reseva: '))
+qntc = int(
+    input('informe a quantidade de turistas crianças que iram fazer a reseva: '))
+custo = qnta*100+(qntc)*50
+print('o custo inicial é de ', custo, 'reais')
+numt = qnta+qntc
+print("---"*20)
+print('o custo por adulto é 38 reais e crianças até 12 anos, professores e estudantes pagam meia')
+print("---"*20)
+custotamar = 0
+inteira = int(
+    input('quantas pessoas  pagam entrada inteira vão para o projeto TAMAR:'))
+
+meia = int(input('quantas pessoas pagam meia entrada vão para o projeto TAMAR:'))
+custotamar = inteira*38+(meia)*19
+print('o valor que deve ser pago no projeto TAMAR é', custotamar, 'reais')
+print("---"*20)
+inteirap = int(input('quantas pessoas faram o mergulho: '))
+custopsci = 0
+print('O custo da ativide piscinas naturais é de 90 reais por pessoa')
+erro = 1
+while (erro == 1):
+    if (numt) < (inteirap):
+        inteirap = int(input('quantas pessoas faram o mergulho: '))
+    else:
+        erro = 0
+inteirap = int(input('quantas pessoas faram o mergulho: '))
+custopsci = inteirap*90
+print('o custo no mergulho foi de: ', custopsci, 'reais')
+print("---"*20)
+custototal = custo+custotamar+custopsci
+print('o preço total foi de: ', custototal, 'reais')
+print("---"*20)
