@@ -22,6 +22,8 @@ display(faturamento_por_loja)
 faturamento_por_produto = tabela[["ID Loja","Produto", "Valor Final"]].groupby(["ID Loja", "Produto"]).sum()
 display(faturamento_por_produto)
 
+#Para  a retirada de colunas vazias :
+
 # import pandas as pd
 
 # # Carregar a tabela do arquivo Excel
