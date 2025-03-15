@@ -18,7 +18,7 @@ nota1=int(input('digite a primeira nota: '))
 nota2=int(input('digite a segunda nota: '))
 nota3=int(input('digite a terceira nota: '))
 nota4=int(input("digite a quarta nota: "))
-media= nota1+nota2+nota3+nota4/4
+media= (nota1+nota2+nota3+nota4)/4
 print(media)
 
 #4.Faça um Programa que converta metros para centímetros.
@@ -40,7 +40,10 @@ print(area,'u.a')
 area2=2*area
 print(area2,'u.a')
 
-#7.Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. 
+'''
+7.Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
+Calcule e mostre o total do seu salário no referido mês. 
+'''
 ganho=int(input("digite o valor que você ganha por hora: "))
 trabalho=int(input('digite a quantidade de horas que você trabalha: '))
 pagamento=ganho*trabalho*20
@@ -57,10 +60,12 @@ temp=float(input('digite o valor da temperatura em celsius'))
 F=((temp*9)/5)+32
 print(F)
 
-#10.Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
-#•o produto do dobro do primeiro com metade do segundo .
-#•a soma do triplo do primeiro com o terceiro.
-#•o terceiro elevado ao cubo.
+'''
+10.Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+•o produto do dobro do primeiro com metade do segundo .
+•a soma do triplo do primeiro com o terceiro.
+•o terceiro elevado ao cubo.
+'''
 num1=int(input('digite um número inteiro: '))
 num2=int(input('digite um número inteiro: '))
 num3=float(input('digite um número real: '))
@@ -72,7 +77,11 @@ print(r2)
 r3=num3**3
 print(r3)
 
-#11.Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+
+'''
+11.Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, 
+usando a seguinte fórmula: (72.7*altura) - 58
+'''
 h=float(input('digite sua altura: '))
 peso=(72.7*h)-58
 print("seu peso ideal é ",peso)
