@@ -1,12 +1,15 @@
-#Vamos simular a compra de bilhetes de aviâo num site da azul'
-#ao abrir o site da azul , o sistema pede alguma entradas.
-#1° entrada= origem e destino
-#2° entrada= voo só de ida ou ida e volta
-#3° entrada= data da ida e da volta se necessario
-#Após esse dados de entrada, o sistema propoe alguns voos
-#Em seguidas,você escolhe um dos voo ou sai do site.
-#Nesse momento, o cliente digita o seu email.
-#Se escolheu um dos voos, voce faz o pagamento e sai do sistema.
+'''
+Vamos simular a compra de bilhetes de aviâo num site da azul'
+ao abrir o site da azul , o sistema pede alguma entradas.
+1° entrada= origem e destino
+2° entrada= voo só de ida ou ida e volta
+3° entrada= data da ida e da volta se necessario
+Após esse dados de entrada, o sistema propoe alguns voos
+Em seguidas,você escolhe um dos voo ou sai do site.
+Nesse momento, o cliente digita o seu email.
+Se escolheu um dos voos, voce faz o pagamento e sai do sistema.
+
+'''
 
 #Esse código abaixo simula os dados de entrada em um sistema de viagem 
 origem=input('Origem: ')
