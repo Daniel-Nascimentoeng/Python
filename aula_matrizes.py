@@ -42,12 +42,14 @@ for i in range(3):
   traco=traco+H[i][i]
 print(traco)
 
-#EXERCÍCIO:Considere uma matriz 3x3 (I) onde I [i] [j] vale 1se existe ligação entre as cidades i e j. Assumindo que sempre existe ligação entre a cidade i e ela mesma.
-
-#Construindo uma matriz I que pertecence ao conjunto de matrizes acima. Observe que uma possível matriz I tem a diagonal principal com valores 1 e se um elemento fora da diagonal , nos chamamos ele de I[i][j].assume o valor 1 , então I[j][i] também assume o valor 1.
-
-#Construa uma matriz I que satisfaz as condições acima e que tem pelo menos 5 entradas com o valor 1. Mude um valor de uma das entradas para o valor 2.Em seguida, realize um teste para saber se a matriz satisfaz as condições do enunciado.
-
+'''EXERCÍCIO:Considere uma matriz 3x3 (I) onde I [i] [j] vale 1 se existe ligação entre as cidades i e j. 
+Assumindo que sempre existe ligação entre a cidade i e ela mesma.
+Construindo uma matriz I que pertecence ao conjunto de matrizes acima. 
+Observe que uma possível matriz I tem a diagonal principal com valores 1 e se um elemento fora da diagonal , 
+nos chamamos ele de I[i][j].assume o valor 1 , então I[j][i] também assume o valor 1.
+Construa uma matriz I que satisfaz as condições acima e que tem pelo menos 5 entradas com o valor 1. 
+Mude um valor de uma das entradas para o valor 2.Em seguida, realize um teste para saber se a matriz satisfaz as condições do enunciado.
+'''
 #Vocês vão percorrer a matriz e testar se I [i][i]==1,I[i][j]=0 ou 1 e se I[i][j]=I[j][i].)
 I=np.array([[1,2,1],[0,1,0],[1,0,1]])
 print(I)
